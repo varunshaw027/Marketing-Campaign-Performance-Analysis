@@ -84,6 +84,13 @@ The dataset includes customer demographics, transaction behavior, and engagement
 
   ---
 
+  ## 🔎 Exploratory Questions
+- Which channel has the lowest cost per engagement?
+- Is higher CPC associated with higher CTR?
+- Does ROI vary significantly across channels?
+
+  ---
+
 ## 🔍 Key Insights
 - All channels perform similarly, indicating a lack of differentiation in marketing strategy
 - Stable CPC suggests controlled spending but limited optimization
@@ -91,6 +98,7 @@ The dataset includes customer demographics, transaction behavior, and engagement
 - ROI stability (~5x) indicates reliable returns but limited growth potential
 - Performance plateau suggests need for experimentation and innovation
 
+---
 
 ## 🧠 Analytical Approach
 - Used SQL to aggregate and calculate performance metrics
@@ -98,8 +106,12 @@ The dataset includes customer demographics, transaction behavior, and engagement
 - Built Tableau dashboard to visualize cross-channel performance
 - Applied scatter plot to analyze relationship between CPC and CTR
 
+---
+
 ## ⚡ Key Takeaway
 The dataset reveals a performance plateau across channels, indicating that growth will likely come from innovation in strategy rather than increased spending.
+
+---
 
   ## 🎯 Why This Project Matters
 Understanding marketing performance helps businesses allocate budget efficiently, improve campaign effectiveness, and maximize return on investment.
@@ -118,13 +130,21 @@ Customer segmentation enables more targeted marketing strategies and improves ov
 - Data Visualization (Tableau)
 - Business Insight Generation
 
+---
+
 ## 🧾 Resume-Ready Summary
 Built an end-to-end marketing analytics solution using SQL Server and Tableau to evaluate campaign performance across channels, delivering actionable insights on cost efficiency, engagement, and ROI.
+
+---
 
 ## 🖼️ Dashboard Preview
 <img width="1000" height="800" alt="dashboard" src="https://github.com/user-attachments/assets/c51f3cbf-cc99-4a6b-9bc7-2612ecc20c6b" />
 
 ---
+
+
+## 👤 Author
+Varun Shaw
 
 ## 💻 Sample SQL Query
 ```sql
@@ -134,8 +154,3 @@ SELECT
     SUM(Acquisition_Cost) * 1.0 / SUM(Clicks) AS CPC
 FROM marketing_data
 GROUP BY Channel_Used;
-
----
-
-## 👤 Author
-Varun Shaw

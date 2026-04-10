@@ -1,4 +1,4 @@
-# 📊 Customer Segmentation Analysis
+# 📊 Marketing Campaign Performance Analysis
 
 ## 📌 Project Overview
 This project focuses on analyzing customer data to identify distinct segments based on behavior and engagement patterns.

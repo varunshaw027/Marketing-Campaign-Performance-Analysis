@@ -135,5 +135,7 @@ SELECT
 FROM marketing_data
 GROUP BY Channel_Used;
 
+---
+
 ## 👤 Author
 Varun Shaw

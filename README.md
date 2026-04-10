@@ -6,7 +6,6 @@ This project focuses on analyzing customer data to identify distinct segments ba
 ## 💡 Business Problem
 The company wants to understand which marketing channels perform best in terms of cost efficiency and engagement, and whether budget allocation should be optimized.
 
-
 ---
 
 ## 🎯 Objectives
@@ -37,10 +36,12 @@ The dataset includes customer demographics, transaction behavior, and engagement
 
 ---
 
-## 📈 Key Insights
-- High-value customers contribute majority of revenue
-- Certain segments show higher engagement rates
-- Opportunity exists to target low-performing segments
+## 📊 Key Findings
+- All channels show similar CTR (~10%), indicating consistent engagement
+- CPC is nearly identical across channels (~$22–23)
+- ROI is stable (~5x), suggesting balanced returns
+- No single channel dominates performance
+- Opportunity lies in experimentation, not scaling a single channel
 
 ---
 

@@ -3,6 +3,10 @@
 ## 📌 Project Overview
 This project focuses on analyzing customer data to identify distinct segments based on behavior and engagement patterns.
 
+## 💡 Business Problem
+The company wants to understand which marketing channels perform best in terms of cost efficiency and engagement, and whether budget allocation should be optimized.
+
+
 ---
 
 ## 🎯 Objectives

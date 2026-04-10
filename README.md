@@ -26,6 +26,12 @@ The company wants to understand which marketing channels perform best in terms o
 ## 📂 Dataset
 The dataset includes customer demographics, transaction behavior, and engagement metrics.
 
+
+## 🧾 SQL Analysis Highlights
+- Aggregated CTR, CPC, and ROI by channel
+- Used GROUP BY and aggregate functions
+- Handled calculations for performance metrics
+
 ---
 
 ## 📊 Dashboard Features
@@ -42,6 +48,22 @@ The dataset includes customer demographics, transaction behavior, and engagement
 - ROI is stable (~5x), suggesting balanced returns
 - No single channel dominates performance
 - Opportunity lies in experimentation, not scaling a single channel
+
+
+## 💼 Business Recommendations
+- Since performance is similar across channels, budget should be diversified instead of concentrated
+- Run A/B tests on creatives and targeting to create differentiation
+- Focus on improving conversion rates rather than increasing spend
+- Explore new channels or audience segments for growth opportunities
+
+## ⚠ Limitations
+- Dataset shows low variance across channels
+- May not reflect real-world performance differences
+
+## 🔮 Future Improvements
+- Include time-based trends
+- Add campaign-level analysis
+- Perform segmentation analysis
 
 ---
 
